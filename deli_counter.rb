@@ -11,7 +11,7 @@ def line(katz_deli)
       line_number.push("#{index + 1}. #{line_name}".chomp)
     end
     string = line_number.join(" ")
-    puts "The line is currently: string".chomp
+    puts "The line is currently: #{string}".chomp
   end
 end
 
