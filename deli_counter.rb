@@ -15,10 +15,10 @@ def line(katz_deli)
   end
 end
 
-# name = "Jayla"
-# def take_a_number(katz_deli, name)
-#   puts "Welcome, #{name}. You are number #{number} in line."
-# end
+name = " "
+def take_a_number(katz_deli, name)
+  puts "Welcome, #{name}. You are number #{number} in line."
+end
 
 # def now_serving
   
